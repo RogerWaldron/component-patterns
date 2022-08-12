@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+A playground used to test out ideas on how to integrate React & NextJS with:
+- Tailwind with components from
+- HeadlessUI
+- Flowbite
 ## Getting Started
 
 First, run the development server:
