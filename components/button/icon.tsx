@@ -4,7 +4,6 @@ import ButtonProps from "./types";
 function IconButton({
   children,
   className,
-  iconName,
   disabled,
   onClick,
   ...rest
@@ -22,11 +21,9 @@ function IconButton({
         className ? className : ""
       }`}
       onClick={onClick}
-      iconName={iconName}
       disabled={disabled}
       {...rest}
     >
-      {iconName}
       {children}
     </Button>
   );
