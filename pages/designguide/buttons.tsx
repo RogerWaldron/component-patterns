@@ -6,6 +6,9 @@ import LinkButton from "../../components/button/link";
 import PlayfulButton from "../../components/button/playful";
 import PrimaryButton from "../../components/button/primary";
 import SimpleButton from "../../components/button/simple";
+import IconButton from "../../components/button/icon";
+
+import { UserIcon } from "@heroicons/react/outline";
 
 type Props = {};
 
@@ -17,6 +20,10 @@ function MyButtons({}: Props) {
           bg-gray-200
         </h3>
         <div className="flex py-6 justify-evenly">
+          <IconButton>
+            <UserIcon className="w-6 h-6 mr-2 text-white" />
+            Log In
+          </IconButton>
           <SimpleButton>Simple</SimpleButton>
           <SimpleButton disabled>Disabled</SimpleButton>
           <LinkButton>Link</LinkButton>
@@ -28,6 +35,10 @@ function MyButtons({}: Props) {
           <PrimaryButton onClick={() => alert("Wooot")}>Primary</PrimaryButton>
         </div>
         <div className="flex py-6 justify-evenly">
+          <IconButton disabled>
+            <UserIcon className="w-6 h-6 mr-2 text-white" />
+            Log In
+          </IconButton>
           <SimpleButton disabled>Simple</SimpleButton>
           <SimpleButton disabled>Disabled</SimpleButton>
           <LinkButton disabled>Link</LinkButton>
@@ -50,6 +61,10 @@ function MyButtons({}: Props) {
           bg-gray-400
         </h3>
         <div className="flex py-6 justify-evenly">
+          <IconButton>
+            <UserIcon className="w-6 h-6 mr-2 text-white" />
+            Log In
+          </IconButton>
           <SimpleButton>Simple</SimpleButton>
           <SimpleButton disabled>Disabled</SimpleButton>
           <LinkButton>Link</LinkButton>
@@ -61,6 +76,10 @@ function MyButtons({}: Props) {
           <PrimaryButton onClick={() => alert("Wooot")}>Primary</PrimaryButton>
         </div>
         <div className="flex py-6 justify-evenly">
+          <IconButton disabled>
+            <UserIcon className="w-6 h-6 mr-2 text-white" />
+            Log In
+          </IconButton>
           <SimpleButton disabled>Simple</SimpleButton>
           <SimpleButton disabled>Disabled</SimpleButton>
           <LinkButton disabled>Link</LinkButton>
@@ -83,6 +102,10 @@ function MyButtons({}: Props) {
           bg-gray-600
         </h3>
         <div className="flex py-6 justify-evenly">
+          <IconButton>
+            <UserIcon className="w-6 h-6 mr-2 text-white" />
+            Log In
+          </IconButton>
           <SimpleButton>Simple</SimpleButton>
           <SimpleButton disabled>Disabled</SimpleButton>
           <LinkButton>Link</LinkButton>
@@ -94,6 +117,10 @@ function MyButtons({}: Props) {
           <PrimaryButton onClick={() => alert("Wooot")}>Primary</PrimaryButton>
         </div>
         <div className="flex py-6 justify-evenly">
+          <IconButton disabled>
+            <UserIcon className="w-6 h-6 mr-2 text-white" />
+            Log In
+          </IconButton>
           <SimpleButton disabled>Simple</SimpleButton>
           <SimpleButton disabled>Disabled</SimpleButton>
           <LinkButton disabled>Link</LinkButton>
@@ -116,6 +143,10 @@ function MyButtons({}: Props) {
           bg-gray-800
         </h3>
         <div className="flex py-6 justify-evenly">
+          <IconButton>
+            <UserIcon className="w-6 h-6 mr-2 text-white" />
+            Log In
+          </IconButton>
           <SimpleButton>Simple</SimpleButton>
           <SimpleButton disabled>Disabled</SimpleButton>
           <LinkButton>Link</LinkButton>
@@ -127,6 +158,10 @@ function MyButtons({}: Props) {
           <PrimaryButton onClick={() => alert("Wooot")}>Primary</PrimaryButton>
         </div>
         <div className="flex py-6 justify-evenly">
+          <IconButton disabled>
+            <UserIcon className="w-6 h-6 mr-2 text-white" />
+            Log In
+          </IconButton>
           <SimpleButton disabled>Simple</SimpleButton>
           <SimpleButton disabled>Disabled</SimpleButton>
           <LinkButton disabled>Link</LinkButton>
