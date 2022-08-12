@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply antialiased bg-white dark:bg-neutral-700;
+}
+
+h1 {
+    @apply prose-2xl prose-invert;
+}
