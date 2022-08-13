@@ -13,7 +13,7 @@ function DesignGuide({}: Props) {
                 <Link href="../designguide/buttons">Buttons</Link>
             </li>
             <li className="">
-                <Link href="../designguide/buttons">Buttons</Link>
+                <Link href="../designguide/polymorphic">Polymorphic Components</Link>
             </li>
         </ul>
     </div>
