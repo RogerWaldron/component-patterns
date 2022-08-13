@@ -7,7 +7,7 @@ Patterns used:
 
 A Design guide is included to showcase component using various combinations
 
-Components are ewritten from scratch
+Components are written from scratch
 
 ## Stack Used 
 NextJS, Typescript, React with Tailwind and HeroIcons
