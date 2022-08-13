@@ -4,10 +4,11 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  {
+    name: "Design Patterns",
+    href: "/designguide",
+    current: true,
+  },
 ];
 
 function classNames(...classes: string[]) {
