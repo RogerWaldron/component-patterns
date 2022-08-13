@@ -7,9 +7,7 @@ Patterns used:
 
 A Design guide is included to showcase component using various combinations
 
-Components are either written from scratch or based on the free components from:
-- HeadlessUI
-- Flowbite
+Components are ewritten from scratch
 
 ## Stack Used 
 NextJS, Typescript, React with Tailwind and HeroIcons
