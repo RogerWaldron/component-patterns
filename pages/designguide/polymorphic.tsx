@@ -6,7 +6,9 @@ type Props = {};
 function Polymorphic({}: Props) {
   return (
     <div className="flex flex-col gap-8 bg-gray-200">
-      <h2 className="text-2xl">Polymorphic Component Pattern</h2>
+      <h2 className="flex justify-center py-4 text-2xl">
+        Polymorphic Pattern used to create Text component
+      </h2>
       <ul className="prose">
         <li>
           Page itself is marked up with Tailwind. Text Component is using CSS
