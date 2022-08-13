@@ -1,10 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Why
+A playground used to test out design patterns for creating components 
 
+Patterns used:
+- Variant
+- Polymorphic
 
-A playground used to test out ideas on how to integrate React & NextJS with:
-- Tailwind with components from
+A Design guide is included to showcase component using various combinations
+
+Components are either written from scratch or based on the free components from:
 - HeadlessUI
 - Flowbite
+
+## Stack Used 
+NextJS, Typescript, React with Tailwind and HeroIcons
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 ## Getting Started
 
 First, run the development server:
