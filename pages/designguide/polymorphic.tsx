@@ -1,6 +1,6 @@
 import React from "react";
 
-import Text from "../../components/text";
+import Text from "@/components/text";
 type Props = {};
 
 function Polymorphic({}: Props) {

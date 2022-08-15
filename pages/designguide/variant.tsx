@@ -1,12 +1,12 @@
 import React from "react";
 
-import BrutalButton from "../../components/button/brutal";
-import ElegantButton from "../../components/button/elegant";
-import LinkButton from "../../components/button/link";
-import PlayfulButton from "../../components/button/playful";
-import PrimaryButton from "../../components/button/primary";
-import SimpleButton from "../../components/button/simple";
-import IconButton from "../../components/button/icon";
+import BrutalButton from "@/components/button/brutal";
+import ElegantButton from "@/components/button/elegant";
+import LinkButton from "@/components/button/link";
+import PlayfulButton from "@/components/button/playful";
+import PrimaryButton from "@/components/button/primary";
+import SimpleButton from "@/components/button/simple";
+import IconButton from "@/components/button/icon";
 
 import { UserIcon } from "@heroicons/react/outline";
 
